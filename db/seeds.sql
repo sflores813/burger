@@ -10,3 +10,7 @@
   -- * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
   -- * Close out of the MySQL command line tool: `exit`.
+
+  INSERT INTO burgers (burger_name, devoured) VALUES ('Double Cheese Burger', FALSE); 
+  INSERT INTO burgers (burger_name, devoured) VALUES ('Bacon Chesse Burger', FALSE);
+  INSERT INTO burgers (burger_name, devoured) VALUES ('Spicy Mushroom Burger', FALSE)
