@@ -1,1 +1,17 @@
 <!--Setup the `main.handlebars` file so it's able to be used by Handlebars.-->
+<h1>Update the quote with an id of {{this.id}}</h1>
+
+<form data-id="{{this.id}}" class="update-form">
+
+  <div class="form-group">
+    <label for="burg">burger_name:</label>
+    <input type="text" id="burg" name="burger_name" value="{{this.burger_name}}">
+  </div>
+
+  <div class="form-group">
+    <label for="quo">devoured:</label>
+    <textarea id="quo" name="devoured" rows="8" cols="40">{{this.devoured}}</textarea>
+  </div>
+
+  <button type="submit">Update devoured</button>
+</form>
